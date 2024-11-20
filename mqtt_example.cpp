@@ -9,7 +9,6 @@ const std::string PAYLOAD{"Hello EMQX!"};
 const int QOS = 1;
 const int TIMEOUT = 10000;
 
-
 int main() {
     mqtt::client client(ADDRESS, CLIENT_ID);
 
